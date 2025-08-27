@@ -1,6 +1,6 @@
 # 🖼️ Wescover Website Clone
 
-A fully responsive clone kof the Wescover website built using **Vite** and **Tailwind CSS**. This project showcase clean design, mobile-first responsiveness, and modern frontend tooling.
+A fully responsive clone of the Wescover website built using **Vite** and **Tailwind CSS**. This project showcase clean design, mobile-first responsiveness, and modern frontend tooling.
 
 ## 🔗 Live Demo
 [click here to view the live demo](https://wescover-website.vercel.app/)
