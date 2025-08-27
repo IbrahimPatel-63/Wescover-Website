@@ -6,7 +6,7 @@ function Cards5({title,name,btn1,btn2,btn3,image,sub}) {
   return (
     <div className='h-[44vh] w-[90vw] sm:h-[53vh] sm:w-[94vw]  md:w-[46vw] xl:w-[31vw] 2xl:w-[28vw] bg-white px-4  py-5 relative border-[1px] border-[#00000025] cursor-pointer'>
         <div className='h-[20vh] w-[85vw] sm:h-[28vh] sm:w-[90vw] md:w-[43vw] xl:w-[29vw] 2xl:w-[26vw] bg-blue-400'><img src={image} alt="" className='h-full w-full object-cover' loading='lazy'/></div>
-        <div className='h-15 w-15 2xl:h-25 2xl:w-25 bg-black rounded-full absolute top-34 left-1 sm:top-48 sm:left-2 2xl:top-38 overflow-hidden'><img src={sub} alt="" className='h-full w-full object-cover' loading='lazy' /></div>
+        <div className='hidden 2xl:block h-15 w-15 2xl:h-25 2xl:w-25 bg-black rounded-full absolute top-34 left-1 sm:top-48 sm:left-2 2xl:top-38 overflow-hidden'><img src={sub} alt="" className='h-full w-full object-cover' loading='lazy' /></div>
         <div className='flex justify-between items-center pt-8 pb-1 '>
             <h1 className='text-2xl'>{title}</h1>
              <FaArrowRightLong  />
